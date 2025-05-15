@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEF & TCF Exam Preparation Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .marker-list li::before {
+            content: "•";
+            color: #3b82f6;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <i class="fas fa-language text-3xl mr-3"></i>
+                    <h1 class="text-2xl md:text-3xl font-bold">TEF & TCF Exam Preparation</h1>
+                </div>
+                <nav class="flex space-x-1 md:space-x-4">
+                    <a href="#overview" class="px-3 py-2 rounded hover:bg-blue-700 transition">Overview</a>
+                    <a href="#skills" class="px-3 py-2 rounded hover:bg-blue-700 transition">Skills</a>
+                    <a href="#preparation" class="px-3 py-2 rounded hover:bg-blue-700 transition">Preparation</a>
+                    <a href="#resources" class="px-3 py-2 rounded hover:bg-blue-700 transition">Resources</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Master Your French Language Exams</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">Comprehensive guide for TEF (Test d'Évaluation de Français) and TCF (Test de Connaissance du Français) with detailed strategies for all four skills: Listening, Reading, Writing, and Speaking.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#skills" class="bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Explore Skills</a>
+                <a href="#preparation" class="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">Preparation Tips</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Exam Overview</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-gray-50 p-6 rounded-lg shadow">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-passport text-blue-600 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">TEF Exam</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">The Test d'Évaluation de Français evaluates French language skills for academic, professional or immigration purposes.</p>
+                    <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                        <li>Valid for 2 years</li>
+                        <li>5 sections: Reading, Listening, Writing, Speaking, Lexicon & Structure</li>
+                        <li>6 levels from A1 to C2</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-certificate text-blue-600 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">TCF Exam</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">The Test de Connaissance du Français assesses general French language proficiency.</p>
+                    <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                        <li>Valid for 2 years</li>
+                        <li>3 compulsory sections: Listening, Reading, Language Structures</li>
+                        <li>Optional Speaking and Writing sections</li>
+                        <li>6 levels from A1 to C2</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                <h3 class="text-xl font-semibold text-blue-800 mb-4">Common Themes & Topics</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <h4 class="font-medium text-blue-700 mb-2">Daily Life</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>Personal information</li>
+                            <li>Housing</li>
+                            <li>Daily routines</li>
+                            <li>Shopping</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <h4 class="font-medium text-blue-700 mb-2">Work & Studies</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>Job search</li>
+                            <li>Work environment</li>
+                            <li>Education system</li>
+                            <li>Professional skills</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <h4 class="font-medium text-blue-700 mb-2">Society & Culture</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>Current events</li>
+                            <li>Cultural activities</li>
+                            <li>Media</li>
+                            <li>Social issues</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <h4 class="font-medium text-blue-700 mb-2">Travel & Environment</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>Transportation</li>
+                            <li>Tourism</li>
+                            <li>Ecology</li>
+                            <li>Geography</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Exam Skills Breakdown</h2>
+            
+            <!-- Tabs Navigation -->
+            <div class="flex flex-wrap border-b border-gray-200 mb-8">
+                <button class="tab-btn active px-4 py-2 font-medium text-blue-600 border-b-2 border-blue-600" data-tab="listening">Listening</button>
+                <button class="tab-btn px-4 py-2 font-medium text-gray-600 hover:text-blue-600" data-tab="reading">Reading</button>
+                <button class="tab-btn px-4 py-2 font-medium text-gray-600 hover:text-blue-600" data-tab="writing">Writing</button>
+                <button class="tab-btn px-4 py-2 font-medium text-gray-600 hover:text-blue-600" data-tab="speaking">Speaking</button>
+            </div>
+            
+            <!-- Tab Contents -->
+            <div class="tab-content active" id="listening">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4 text-gray-800">Listening Comprehension</h3>
+                        <p class="text-gray-600 mb-4">Tests ability to understand spoken French in various contexts (conversations, announcements, interviews).</p>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-medium text-blue-700 mb-2">Marking Scheme:</h4>
+                            <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                                <li>Points awarded for correct answers</li>
+                                <li>No penalty for wrong answers</li>
+                                <li>Score converted to CEFR level (A1-C2)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-medium text-blue-700 mb-2">Common Mistakes:</h4>
+                            <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                                <li>Misunderstanding key words</li>
+                                <li>Focusing too much on unknown words</li>
+                                <li>Not paying attention to intonation and context clues</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-medium text-blue-700 mb-2">Time Management:</h4>
+                            <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                                <li>Approx. 40 minutes for TEF (60 questions)</li>
+                                <li>Approx. 25 minutes for TCF (29 questions)</li>
+                                <li>Read questions before listening</li>
+                                <li>Use second listening to confirm answers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-white p-6 rounded-lg shadow mb-6">
+                            <h4 class="font-medium text-blue-700 mb-3">Sample Question:</h4>
+                            <p class="text-gray-600 italic mb-4">You will hear a conversation between two people. Answer the question based on what you hear.</p>
+                            <p class="text-gray-800 font-medium mb-2">Question: Why is the woman calling the restaurant?</p>
+                            <div class="space-y-2">
+                                <div class="flex items-center">
+                                    <input type="radio" id="listen1" name="listen" class="mr-2">
+                                    <label for="listen1" class="text-gray-600">To make a reservation</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="listen2" name="listen" class="mr-2">
+                                    <label for="listen2" class="text-gray-600">To cancel an order</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="listen3" name="listen" class="mr-2">
+                                    <label for="listen3" class="text-gray-600">To complain about service</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="listen4" name="listen" class="mr-2">
+                                    <label for="listen4" class="text-gray-600">To ask about opening hours</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-medium text-blue-700 mb-2">Useful Phrases:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><span class="font-medium">"D'après l'enregistrement..."</span> (According to the recording...)</li>
+                                <li><span class="font-medium">"L'interlocuteur mentionne que..."</span> (The speaker mentions that...)</li>
+                                <li><span class="font-medium">"On peut comprendre que..."</span> (We can understand that...)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="reading">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4 text-gray-800">Reading Comprehension</h3>
+                        <p class="text-gray-600 mb-4">Evaluates ability to understand written French (articles, advertisements, letters, etc.).</p>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-medium text-blue-700 mb-2">Marking Scheme:</h4>
+                            <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                                <li>Points for correct answers</li>
+                                <li>No negative marking</li>
+                                <li>Score converted to CEFR level</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-medium text-blue-700 mb-2">Common Mistakes:</h4>
+                            <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                                <li>Spending too much time on difficult questions</li>
+                                <li>Not reading instructions carefully</li>
+                                <li>Answering based on personal knowledge rather than text</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-medium text-blue-700 mb-2">Time Management:</h4>
+                            <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                                <li>Approx. 60 minutes for TEF (50 questions)</li>
+                                <li>Approx. 45 minutes for TCF (29 questions)</li>
+                                <li>Skim text first for general understanding</li>
+                                <li>Read questions before detailed reading</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-white p-6 rounded-lg shadow mb-6">
+                            <h4 class="font-medium text-blue-700 mb-3">Sample Question:</h4>
+                            <p class="text-gray-600 italic mb-2">Read the following advertisement:</p>
+                            <div class="bg-gray-100 p-4 mb-4 rounded">
+                                <p class="text-gray-800 font-medium">"Grande vente d'hiver! Tous les manteaux à -50% ce week-end seulement. Profitez-en!"</p>
+                            </div>
+                            <p class="text-gray-800 font-medium mb-2">Question: What is being advertised?</p>
+                            <div class="space-y-2">
+                                <div class="flex items-center">
+                                    <input type="radio" id="read1" name="read" class="mr-2">
+                                    <label for="read1" class="text-gray-600">A winter festival</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="read2" name="read" class="mr-2">
+                                    <label for="read2" class="text-gray-600">A coat sale</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="read3" name="read" class="mr-2">
+                                    <label for="read3" class="text-gray-600">A weekend trip</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="read4" name="read" class="mr-2">
+                                    <label for="read4" class="text-gray-600">A new store opening</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-medium text-blue-700 mb-2">Useful Phrases:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><span class="font-medium">"Le texte indique que..."</span> (The text indicates that...)</li>
+                                <li><span class="font-medium">"Il est mentionné que..."</span> (It is mentioned that...)</li>
+                                <li><span class="font-medium">"On peut déduire que..."</span> (We can deduce that...)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="writing">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4 text-gray-800">Writing Expression</h3>
+                        <p class="text-gray-600 mb-4">Assesses ability to produce clear, coherent written French (emails, letters, essays).</p>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-medium text-blue-700 mb-2">Marking Criteria:</h4>
+                            <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                                <li>Task completion (30%)</li>
+                                <li>Coherence and cohesion (25%)</li>
+                                <li>Lexical range and accuracy (25%)</li>
+                                <li>Grammatical accuracy (20%)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-medium text-blue-700 mb-2">Common Mistakes:</h4>
+                            <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                                <li>Not addressing all parts of the task</li>
+                                <li>Poor paragraph structure</li>
+                                <li>Repetitive vocabulary</li>
+                                <li>Basic grammar errors</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-medium text-blue-700 mb-2">Time Management:</h4>
+                            <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                                <li>60 minutes for both TEF and TCF</li>
+                                <li>Plan (10 min), Write (40 min), Review (10 min)</li>
+                                <li>Word count: 150-200 words for TEF, 120-150 for TCF</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-white p-6 rounded-lg shadow mb-6">
+                            <h4 class="font-medium text-blue-700 mb-3">Sample Task:</h4>
+                            <p class="text-gray-600 italic mb-4">You recently stayed at a hotel and were dissatisfied with the service. Write an email to the hotel manager (150-200 words) including:</p>
+                            <ul class="marker-list pl-5 text-gray-600 mb-4">
+                                <li>Details of your stay</li>
+                                <li>Problems encountered</li>
+                                <li>Suggestions for improvement</li>
+                            </ul>
+                            <div class="border border-gray-200 rounded p-4 h-40 bg-gray-50">
+                                <p class="text-gray-400 italic">Write your response here...</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-medium text-blue-700 mb-2">Useful Phrases:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><span class="font-medium">"Je me permets de vous écrire concernant..."</span> (I am writing to you regarding...)</li>
+                                <li><span class="font-medium">"Tout d'abord,... Ensuite,... Enfin,..."</span> (First,... Then,... Finally,...)</li>
+                                <li><span class="font-medium">"Je vous serais reconnaissant de..."</span> (I would be grateful if you...)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="speaking">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4 text-gray-800">Speaking Expression</h3>
+                        <p class="text-gray-600 mb-4">Evaluates oral communication skills through interviews, role-plays and presentations.</p>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-medium text-blue-700 mb-2">Marking Criteria:</h4>
+                            <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                                <li>Fluency and coherence (30%)</li>
+                                <li>Lexical resource (25%)</li>
+                                <li>Grammatical range and accuracy (25%)</li>
+                                <li>Pronunciation (20%)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-medium text-blue-700 mb-2">Common Mistakes:</h4>
+                            <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                                <li>Long pauses and hesitation</li>
+                                <li>Not answering the question asked</li>
+                                <li>Monotonous intonation</li>
+                                <li>Overusing simple structures</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-medium text-blue-700 mb-2">Time Management:</h4>
+                            <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                                <li>15 minutes for TEF (3 tasks)</li>
+                                <li>12 minutes for TCF (3 tasks)</li>
+                                <li>Balance preparation and speaking time</li>
+                                <li>Keep answers concise but complete</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-white p-6 rounded-lg shadow mb-6">
+                            <h4 class="font-medium text-blue-700 mb-3">Sample Task:</h4>
+                            <p class="text-gray-600 italic mb-4">You are applying for a job in a French company. The interviewer asks:</p>
+                            <p class="text-gray-800 font-medium mb-4">"Pourquoi voulez-vous travailler dans notre entreprise?" (Why do you want to work for our company?)</p>
+                            <div class="border border-gray-200 rounded p-4 h-40 bg-gray-50">
+                                <p class="text-gray-400 italic">Prepare your response...</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-medium text-blue-700 mb-2">Useful Phrases:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><span class="font-medium">"À mon avis,..."</span> (In my opinion...)</li>
+                                <li><span class="font-medium">"Je dirais que..."</span> (I would say that...)</li>
+                                <li><span class="font-medium">"D'un côté,... De l'autre côté,..."</span> (On one hand,... On the other hand...)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preparation Section -->
+    <section id="preparation" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Preparation Strategies</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800">For Teachers</h3>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-medium text-blue-700 mb-2">Classroom Activities:</h4>
+                        <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                            <li>Mock exams under timed conditions</li>
+                            <li>Peer evaluation of writing and speaking</li>
+                            <li>Error correction sessions</li>
+                            <li>Listening comprehension with authentic materials</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-medium text-blue-700 mb-2">Teaching Strategies:</h4>
+                        <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                            <li>Focus on exam format and question types</li>
+                            <li>Teach time management techniques</li>
+                            <li>Provide regular feedback on progress</li>
+                            <li>Create vocabulary lists by theme</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-medium text-blue-700 mb-2">Recommended Exercises:</h4>
+                        <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                            <li>Weekly writing assignments with model answers</li>
+                            <li>Daily listening practice with transcripts</li>
+                            <li>Structured speaking practice in pairs</li>
+                            <li>Grammar drills targeting common errors</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800">For Students</h3>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-medium text-blue-700 mb-2">Self-Study Plan:</h4>
+                        <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                            <li>Daily vocabulary building (15-20 words)</li>
+                            <li>Regular listening practice (podcasts, news)</li>
+                            <li>Writing practice with timed exercises</li>
+                            <li>Speaking practice with language partners</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-medium text-blue-700 mb-2">Stress Management:</h4>
+                        <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                            <li>Practice relaxation techniques (deep breathing)</li>
+                            <li>Simulate exam conditions at home</li>
+                            <li>Maintain healthy sleep schedule</li>
+                            <li>Positive self-talk and visualization</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-medium text-blue-700 mb-2">Exam Day Tips:</h4>
+                        <ul class="marker-list pl-5 space-y-2 text-gray-600">
+                            <li>Arrive early and prepared</li>
+                            <li>Read instructions carefully</li>
+                            <li>Manage time effectively</li>
+                            <li>Stay calm and focused</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                <h3 class="text-xl font-semibold text-blue-800 mb-4">Grammar Expectations by Level</h3>
+                
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-white rounded-lg overflow-hidden">
+                        <thead class="bg-blue-100">
+                            <tr>
+                                <th class="px-4 py-2 text-left text-blue-800">Level</th>
+                                <th class="px-4 py-2 text-left text-blue-800">Expected Grammar</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            <tr>
+                                <td class="px-4 py-2 text-gray-600">A1-A2</td>
+                                <td class="px-4 py-2 text-gray-600">Present tense, basic questions, simple negation, articles, common prepositions</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-2 text-gray-600">B1</td>
+                                <td class="px-4 py-2 text-gray-600">Past tenses (passé composé, imparfait), future, conditional, pronouns, comparatives</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-2 text-gray-600">B2</td>
+                                <td class="px-4 py-2 text-gray-600">Subjunctive, complex sentence structures, passive voice, reported speech</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-2 text-gray-600">C1-C2</td>
+                                <td class="px-4 py-2 text-gray-600">Advanced syntax, nuanced tenses, stylistic variation, idiomatic expressions</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Additional Resources</h2>
+            
+            <div class="grid md:grid-cols-3 gap-6 mb-12">
+                <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-link text-blue-600 mr-3"></i>
+                        <h3 class="text-lg font-semibold text-gray-800">Linkers & Connectors</h3>
+                    </div>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><span class="font-medium">Addition:</span> de plus, en outre, par ailleurs</li>
+                        <li><span class="font-medium">Contrast:</span> cependant, néanmoins, par contre</li>
+                        <li><span class="font-medium">Cause:</span> parce que, car, en raison de</li>
+                        <li><span class="font-medium">Result:</span> donc, par conséquent, ainsi</li>
+                        <li><span class="font-medium">Conclusion:</span> en conclusion, pour conclure, finalement</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-bolt text-blue-600 mr-3"></i>
+                        <h3 class="text-lg font-semibold text-gray-800">Injunctions</h3>
+                    </div>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>Décrivez... (Describe...)</li>
+                        <li>Comparez... (Compare...)</li>
+                        <li>Donnez votre opinion sur... (Give your opinion on...)</li>
+                        <li>Racontez... (Tell about...)</li>
+                        <li>Justifiez votre réponse (Justify your answer)</li>
+                        <li>Résumez... (Summarize...)</li>
+                        <li>Analysez... (Analyze...)</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-book text-blue-600 mr-3"></i>
+                        <h3 class="text-lg font-semibold text-gray-800">Recommended Materials</h3>
+                    </div>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>TEF/TCF official preparation books</li>
+                        <li>French grammar workbooks (Grammaire Progressive du Français)</li>
+                        <li>Vocabulary builders by theme</li>
+                        <li>Authentic French media (RFI, TV5Monde, Le Monde)</li>
+                        <li>Language learning apps (Duolingo, Babbel, Anki)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h3 class="text-xl font-semibold mb-4 text-gray-800">Practice Tests</h3>
+                <p class="text-gray-600 mb-4">Access full-length practice tests to simulate the exam experience:</p>
+                
+                <div class="grid md:grid-cols-2 gap-4">
+                    <a href="#" class="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-blue-50 transition">
+                        <i class="fas fa-file-alt text-blue-600 text-xl mr-4"></i>
+                        <div>
+                            <h4 class="font-medium text-gray-800">TEF Practice Test</h4>
+                            <p class="text-sm text-gray-600">Complete test with answer key</p>
+                        </div>
+                    </a>
+                    <a href="#" class="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-blue-50 transition">
+                        <i class="fas fa-file-alt text-blue-600 text-xl mr-4"></i>
+                        <div>
+                            <h4 class="font-medium text-gray-800">TCF Practice Test</h4>
+                            <p class="text-sm text-gray-600">Complete test with answer key</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="gradient-bg text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-bold mb-2">TEF & TCF Preparation</h3>
+                    <p class="text-blue-100">Comprehensive guide for French language exams</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-white hover:text-blue-200 transition"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white hover:text-blue-200 transition"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white hover:text-blue-200 transition"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white hover:text-blue-200 transition"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="border-t border-blue-400 mt-6 pt-6 text-center text-blue-100">
+                <p>&copy; 2023 TEF & TCF Preparation Guide. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Tab functionality
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+        
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const tabId = button.getAttribute('data-tab');
+                
+                // Remove active class from all buttons and contents
+                tabButtons.forEach(btn => btn.classList.remove('active', 'text-blue-600', 'border-blue-600'));
+                tabContents.forEach(content => content.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding content
+                button.classList.add('active', 'text-blue-600', 'border-blue-600');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Accordion functionality
+        const accordionHeaders = document.querySelectorAll('.accordion-header');
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                const isOpen = content.style.maxHeight;
+                
+                // Close all other accordions
+                document.querySelectorAll('.accordion-content').forEach(item => {
+                    if (item !== content) {
+                        item.style.maxHeight = null;
+                        item.previousElementSibling.querySelector('i').classList.remove('fa-minus');
+                        item.previousElementSibling.querySelector('i').classList.add('fa-plus');
+                    }
+                });
+                
+                // Toggle current accordion
+                if (isOpen) {
+                    content.style.maxHeight = null;
+                    header.querySelector('i').classList.remove('fa-minus');
+                    header.querySelector('i').classList.add('fa-plus');
+                } else {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    header.querySelector('i').classList.remove('fa-plus');
+                    header.querySelector('i').classList.add('fa-minus');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
